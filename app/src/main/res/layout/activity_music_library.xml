@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Linear"
+    tools:context="com.example.android.musicapp.MusicLibrary">
+
+    <LinearLayout style="@style/Linear2">
+
+        <RelativeLayout style="@style/Relativ">
+
+            <TextView
+                android:id="@+id/Album1"
+                style="@style/Text_view_album"
+                android:text="@string/Album_text_view" />
+
+            <TextView
+                style="@style/Text_view_year"
+                android:layout_below="@id/Album1"
+                android:text="@string/year_text_view" />
+
+            <Button
+                style="@style/Go_button"
+                android:text="@string/GO_button" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <LinearLayout style="@style/Linear2">
+
+        <RelativeLayout style="@style/Relativ">
+
+            <TextView
+                android:id="@+id/Album2"
+                style="@style/Text_view_album"
+                android:text="@string/Album_text_view" />
+
+            <TextView
+                style="@style/Text_view_year"
+                android:layout_below="@id/Album2"
+                android:text="@string/year_text_view" />
+
+            <Button
+                style="@style/Go_button"
+                android:text="@string/GO_button" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <LinearLayout style="@style/Linear2">
+
+        <RelativeLayout style="@style/Relativ">
+
+            <TextView
+                android:id="@+id/Album3"
+                style="@style/Text_view_album"
+                android:text="@string/Album_text_view" />
+
+            <TextView
+                style="@style/Text_view_year"
+                android:layout_below="@id/Album3"
+                android:text="@string/year_text_view" />
+
+            <Button
+                style="@style/Go_button"
+                android:text="@string/GO_button" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <LinearLayout style="@style/Linear2">
+
+        <RelativeLayout style="@style/Relativ">
+
+            <TextView
+                android:id="@+id/Album4"
+                style="@style/Text_view_album"
+                android:text="@string/Album_text_view" />
+
+            <TextView
+                style="@style/Text_view_year"
+                android:layout_below="@id/Album4"
+                android:text="@string/year_text_view" />
+
+            <Button
+                style="@style/Go_button"
+                android:text="@string/GO_button" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <LinearLayout style="@style/Linear2">
+
+        <RelativeLayout style="@style/Relativ">
+
+            <TextView
+                android:id="@+id/Album5"
+                style="@style/Text_view_album"
+                android:text="@string/Album_text_view" />
+
+            <TextView
+                style="@style/Text_view_year"
+                android:layout_below="@id/Album5"
+                android:text="@string/year_text_view" />
+
+            <Button
+                style="@style/Go_button"
+                android:text="@string/GO_button" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <LinearLayout style="@style/Linear2">
+
+        <RelativeLayout style="@style/Relativ">
+
+            <TextView
+                android:id="@+id/Album6"
+                style="@style/Text_view_album"
+                android:text="@string/Album_text_view" />
+
+            <TextView
+                style="@style/Text_view_year"
+                android:layout_below="@id/Album6"
+                android:text="@string/year_text_view" />
+
+            <Button
+                style="@style/Go_button"
+                android:text="@string/GO_button" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
