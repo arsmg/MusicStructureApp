@@ -6,6 +6,10 @@
     style="@style/Linear"
     tools:context="com.example.android.musicapp.MusicLibrary">
 
+    <TextView
+        style="@style/Library_text_view"
+        android:text="@string/Library_text_view"/>
+
     <LinearLayout style="@style/Linear2">
 
         <RelativeLayout style="@style/Relativ">
@@ -21,6 +25,7 @@
                 android:text="@string/year_text_view" />
 
             <Button
+                android:id="@+id/go_btn1"
                 style="@style/Go_button"
                 android:text="@string/GO_button" />
 
@@ -47,6 +52,7 @@
                 android:text="@string/year_text_view" />
 
             <Button
+                android:id="@+id/go_btn2"
                 style="@style/Go_button"
                 android:text="@string/GO_button" />
 
@@ -73,84 +79,7 @@
                 android:text="@string/year_text_view" />
 
             <Button
-                style="@style/Go_button"
-                android:text="@string/GO_button" />
-
-        </RelativeLayout>
-    </LinearLayout>
-
-    <View
-        android:layout_width="wrap_content"
-        android:layout_height="1dp"
-        android:background="@color/colorPrimaryDark" />
-
-    <LinearLayout style="@style/Linear2">
-
-        <RelativeLayout style="@style/Relativ">
-
-            <TextView
-                android:id="@+id/Album4"
-                style="@style/Text_view_album"
-                android:text="@string/Album_text_view" />
-
-            <TextView
-                style="@style/Text_view_year"
-                android:layout_below="@id/Album4"
-                android:text="@string/year_text_view" />
-
-            <Button
-                style="@style/Go_button"
-                android:text="@string/GO_button" />
-
-        </RelativeLayout>
-    </LinearLayout>
-
-    <View
-        android:layout_width="wrap_content"
-        android:layout_height="1dp"
-        android:background="@color/colorPrimaryDark" />
-
-    <LinearLayout style="@style/Linear2">
-
-        <RelativeLayout style="@style/Relativ">
-
-            <TextView
-                android:id="@+id/Album5"
-                style="@style/Text_view_album"
-                android:text="@string/Album_text_view" />
-
-            <TextView
-                style="@style/Text_view_year"
-                android:layout_below="@id/Album5"
-                android:text="@string/year_text_view" />
-
-            <Button
-                style="@style/Go_button"
-                android:text="@string/GO_button" />
-
-        </RelativeLayout>
-    </LinearLayout>
-
-    <View
-        android:layout_width="wrap_content"
-        android:layout_height="1dp"
-        android:background="@color/colorPrimaryDark" />
-
-    <LinearLayout style="@style/Linear2">
-
-        <RelativeLayout style="@style/Relativ">
-
-            <TextView
-                android:id="@+id/Album6"
-                style="@style/Text_view_album"
-                android:text="@string/Album_text_view" />
-
-            <TextView
-                style="@style/Text_view_year"
-                android:layout_below="@id/Album6"
-                android:text="@string/year_text_view" />
-
-            <Button
+                android:id="@+id/go_btn3"
                 style="@style/Go_button"
                 android:text="@string/GO_button" />
 

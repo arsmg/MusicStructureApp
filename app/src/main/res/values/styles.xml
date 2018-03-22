@@ -8,6 +8,13 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="Library_text_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/dp16</item>
+        <item name="android:textSize">@dimen/sp20</item>
+    </style>
+
     <style name="Linear">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
@@ -47,6 +54,18 @@
         <item name="android:layout_margin">@dimen/dp16</item>
     </style>
 
+    <style name="Text_view_song_name">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/dp16</item>
+        <item name="android:paddingLeft">@dimen/dp16</item>
+    </style>
 
+    <style name="Text_view_song_length">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/dp16</item>
+        <item name="android:paddingLeft">@dimen/dp16</item>
+    </style>
 
 </resources>
