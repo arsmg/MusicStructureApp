@@ -3,7 +3,8 @@
     <string name="GO_button">go</string>
     <string name="Album_text_view">Album name</string>
     <string name="year_text_view">Year</string>
-    <string name="Library_text_view">Library</string>
     <string name="song">Artist - New Song Name</string>
     <string name="song_lenght">0:00</string>
+    <string name="Playlist">Playlist</string>
+    <string name="Library">Music Library</string>
 </resources>
